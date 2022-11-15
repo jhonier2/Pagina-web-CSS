@@ -319,11 +319,6 @@ table.steelBlueCols {
     border-radius: 5px;
   }
 
-.wrap{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .column-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
