@@ -65,6 +65,12 @@ ul.main-menu{
    
 li.menu-item{
     margin: 1rem;
+    border: 2px solid;
+    border-right: 0px;
+    border-left: 0px;
+    line-height: 2rem;
+    color: #fff;
+    border-color: #fff;
 }
    
 li.menu-item a{
