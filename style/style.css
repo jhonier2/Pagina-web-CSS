@@ -368,7 +368,7 @@ table.steelBlueCols {
 }
 
 .unete-img{
-    background: no-repeat center center fixed;
+    background: no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
