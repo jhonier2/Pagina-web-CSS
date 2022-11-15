@@ -1,9 +1,12 @@
-html{
+*{   
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+
 }
+
+
 body{
     margin: 0;
     padding: 0;
@@ -36,6 +39,7 @@ header.main-header{
     justify-content: space-between;
     padding: 1rem;
     background: rgba(255, 255, 255, 0);
+
 }
    
 .wrap-logo-header{
