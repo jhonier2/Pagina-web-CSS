@@ -136,7 +136,7 @@ li.menu-item a:hover{
     text-transform: capitalize;
 }
 
-.first-btn{
+#btn{
     display: inline-block;
     font-weight: 400;
     color: white;
