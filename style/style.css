@@ -332,8 +332,10 @@ table.steelBlueCols {
     background: url(../img/pull-push-leg_img.jpg) center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    height: 100%;
+    width: 100%;
     border-radius: 6px;
     padding: 1rem .5rem;
     display: flex;
@@ -347,8 +349,10 @@ table.steelBlueCols {
     background: url(../img/full-body_img.jpg) center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    height: 100%;
+    width: 100%;
     border-radius: 6px;
     padding: 1rem .5rem;
     display: flex;
