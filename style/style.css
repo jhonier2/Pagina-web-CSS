@@ -39,7 +39,6 @@ header.main-header{
     justify-content: space-between;
     padding: 1rem;
     background: rgba(255, 255, 255, 0);
-
 }
    
 .wrap-logo-header{
@@ -373,4 +372,45 @@ table.steelBlueCols {
 .cta_tarjeta-vg a{
     color: #fff;
     font-weight: bold;
+}
+
+.dropbtn{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    z-index: 99;
+    margin: 0;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a{
+    color: rgb(254, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #414141
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropbtn {
+    color: #ff0000;
 }
